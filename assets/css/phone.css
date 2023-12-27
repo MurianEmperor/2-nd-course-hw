@@ -1,0 +1,39 @@
+@media (min-width:374px) and (max-width:768px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .main-page {
+
+        .header{
+
+        }
+
+        .header_content{
+
+        }
+
+        .header_h {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .header_slog{
+            text-align: center;
+            font-size: 14px;
+        }
+        .header_button{
+            margin-left: 55px;
+        }
+        .games_box{
+            width: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+        }
+        .img{
+            width: 343px;
+        }
+    }
+
+}
