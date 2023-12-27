@@ -86,7 +86,6 @@ if (info === "Роль"){
 
 // 10 Задание
 
-
 alert("Задание 10");
 let userName = prompt('Введите ваше имя.');
 alert("Привет " + userName + "!");
