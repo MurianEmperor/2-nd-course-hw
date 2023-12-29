@@ -6,6 +6,7 @@ alert(a);
 a = 20;
 alert(a);
 
+
 // 2 Задание
 
 const year = 2007;
