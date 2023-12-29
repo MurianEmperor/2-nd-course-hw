@@ -1,19 +1,20 @@
 // 1 Задание
 
-let a = 10;
 alert("Задание 1");
+let a = 10;
 alert(a);
-alert(a+10);
+a = 20;
+alert(a);
 
 // 2 Задание
 
-let year = 2007;
+const year = 2007;
 alert("Задание 2");
 alert("Год выпуска первого Айфона: " + year);
 
 // 3 Задание
 
-let creatorJSName = "Бренданом Айком";
+const creatorJSName = "Бренданом Айком";
 alert("Задание 3");
 alert("Имя создателя JavaScript: " + creatorJSName);
 
@@ -74,14 +75,9 @@ delete user.cityOfResidence;
 
 
 let info = prompt('Какую информацию хотите узнать о пользователе? Обробатываются только запросы с заглавной буквы, например Имя, Возраст, Администратор');
-if (info === "Имя"){
-    alert(user.name);
-}
-if (info === "Возраст"){
-    alert(user.age);
-}
-if (info === "Роль"){
-    alert(user.isAdmin);
+
+if(info){
+    alert(user[info]);
 }
 
 // 10 Задание
